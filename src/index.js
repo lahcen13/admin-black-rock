@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import  { configureStore } from '@reduxjs/toolkit'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PageClients from './components/Pages/PageClients/PageClients';
-import PageCommandes from './components/Pages/PageCommandes/PageCommandes';
+import PageCryptomonnaie from './components/Pages/PageCryptocurrency/PageCryptocurrency';
 import PageError from './components/Pages/PageError/PageError'
 import Login from './components/Login/Login';
 import DummyReducer from './DummyReducer';
@@ -27,7 +27,7 @@ root.render(
           {localStorage.getItem("jwt") &&
           <>
           <Route path="/users" element={<PageClients />} />
-          <Route path="/commandes" element={<PageCommandes />} />
+          <Route path="/cryptomonnaie" element={<PageCryptomonnaie />} />
           </>
           }
           <Route path="*" element={<PageError />} />

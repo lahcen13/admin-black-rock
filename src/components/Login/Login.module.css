@@ -1,3 +1,11 @@
 .Login {
-    margin-top: 20vh !important;
+    background-color: #22202A;
+    height:100vh;
+}
+.Black{
+    height:25vh!important;
+    position: absolute!important;
+}
+.bg{
+    background:linear-gradient(to right, #AF53FF, #6EACFE)
 }
